@@ -15,7 +15,7 @@ public class WebTableTest {
 		  driver.manage().window().maximize();
 		  driver.get("https://testautomationpractice.blogspot.com/");
 		  List<WebElement> items = driver.findElements(By.xpath("//td[contains(text(),'Master In Selenium')]//following-sibling::td"));
-		  System.out.println("etails of a book... "+items.size());
+		  System.out.println("Details of a book_New... "+items.size());
 		  for (WebElement item: items)
 		  {
 			  System.out.println(item.getText());
