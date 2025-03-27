@@ -51,6 +51,17 @@ public class GooglePageTest {
 //	  driver.get("https://www.lambdatest.com/blog");
 //	  driver.findElement(By.cssSelector("nav div.header-menu-item"));
 	  
+	//submit & clear & click
+	  driver.get("https://the-internet.herokuapp.com/login"); //toolsqa.com
+	  WebElement user = driver.findElement(By.cssSelector("#username"));//
+	  user.sendKeys("tomsmith1");
+	  user.clear();
+	  user.sendKeys("tomsmith");
+	  user.sendKeys(Keys.TAB);
+	  WebElement pwd = driver.findElement(By.cssSelector("input#password"));
+	  pwd.sendKeys("SuperSecretPassword!");
+	  WebElement click = driver.findElement(By.cssSelector("i.fa.fa-2x.fa-sign-in"));
+	  click.submit();
 	  
 	  
   

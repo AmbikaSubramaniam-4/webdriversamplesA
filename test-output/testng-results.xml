@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T17:43:08 IST" name="Default suite" finished-at="2025-03-25T17:43:12 IST" duration-ms="3552">
+  <suite started-at="2025-03-27T17:41:32 IST" name="Default suite" finished-at="2025-03-27T17:41:39 IST" duration-ms="7341">
     <groups>
     </groups>
-    <test started-at="2025-03-25T17:43:08 IST" name="Default test" finished-at="2025-03-25T17:43:12 IST" duration-ms="3552">
-      <class name="testScripts.Relativelocator">
-        <test-method signature="seleniumnSearch()[pri:0, instance:testScripts.Relativelocator@38cee291]" started-at="2025-03-25T17:43:08 IST" name="seleniumnSearch" finished-at="2025-03-25T17:43:12 IST" duration-ms="3493" status="PASS">
+    <test started-at="2025-03-27T17:41:32 IST" name="Default test" finished-at="2025-03-27T17:41:39 IST" duration-ms="7341">
+      <class name="testScripts.Mouseactiontest">
+        <test-method signature="mouse_action()[pri:0, instance:testScripts.Mouseactiontest@4b45a2f5]" started-at="2025-03-27T17:41:32 IST" name="mouse_action" finished-at="2025-03-27T17:41:39 IST" duration-ms="7273" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- seleniumnSearch -->
-      </class> <!-- testScripts.Relativelocator -->
+        </test-method> <!-- mouse_action -->
+      </class> <!-- testScripts.Mouseactiontest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
