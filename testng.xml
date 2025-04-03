@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="testScripts.GooglePageTest"/>
+      <class name="testScripts.Mouseactiontest"/>
+      <class name="testScripts.DropdownTest"/>
+      <class name="testScripts.DynamicElementsTest"/>
+      <class name="testScripts.WebTableTest"/>
+      <class name="testScripts.isdisplayed"/>
+      <class name="testScripts.Relativelocator"/>
+      <class name="testScripts.Checkboxtest"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- SampleSuite -->
