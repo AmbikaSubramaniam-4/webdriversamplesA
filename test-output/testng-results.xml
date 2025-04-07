@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-05T16:19:20 IST" name="Default suite" finished-at="2025-04-05T16:19:34 IST" duration-ms="14250">
+  <suite started-at="2025-04-05T17:41:11 IST" name="SampleSuite" finished-at="2025-04-05T17:41:12 IST" duration-ms="121">
     <groups>
+      <group name="featureone">
+        <method signature="SampleThree.testOne()[pri:0, instance:groupscripts.SampleThree@1ffaf86]" name="testOne" class="groupscripts.SampleThree"/>
+        <method signature="SampleTwo.testOne()[pri:0, instance:groupscripts.SampleTwo@5ab956d7]" name="testOne" class="groupscripts.SampleTwo"/>
+        <method signature="Sampleone.testOne()[pri:0, instance:groupscripts.Sampleone@3646a422]" name="testOne" class="groupscripts.Sampleone"/>
+      </group> <!-- featureone -->
     </groups>
-    <test started-at="2025-04-05T16:19:20 IST" name="Default test" finished-at="2025-04-05T16:19:34 IST" duration-ms="14250">
-      <class name="testScripts.Booksearchtest">
-        <test-method signature="crimenovel()[pri:0, instance:testScripts.Booksearchtest@f09733f]" started-at="2025-04-05T16:19:20 IST" name="crimenovel" finished-at="2025-04-05T16:19:28 IST" duration-ms="7811" status="PASS">
+    <test started-at="2025-04-05T17:41:11 IST" name="SampleTest" finished-at="2025-04-05T17:41:12 IST" duration-ms="121">
+      <class name="groupscripts.Sampleone">
+        <test-method signature="testOne()[pri:0, instance:groupscripts.Sampleone@3646a422]" started-at="2025-04-05T17:41:12 IST" name="testOne" finished-at="2025-04-05T17:41:12 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crimenovel -->
-        <test-method signature="f()[pri:0, instance:testScripts.Booksearchtest@f09733f]" started-at="2025-04-05T16:19:28 IST" name="f" finished-at="2025-04-05T16:19:34 IST" duration-ms="6372" status="PASS">
+        </test-method> <!-- testOne -->
+      </class> <!-- groupscripts.Sampleone -->
+      <class name="groupscripts.SampleThree">
+        <test-method signature="testOne()[pri:0, instance:groupscripts.SampleThree@1ffaf86]" started-at="2025-04-05T17:41:12 IST" name="testOne" finished-at="2025-04-05T17:41:12 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testScripts.Booksearchtest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testOne -->
+      </class> <!-- groupscripts.SampleThree -->
+      <class name="groupscripts.SampleTwo">
+        <test-method signature="testOne()[pri:0, instance:groupscripts.SampleTwo@5ab956d7]" started-at="2025-04-05T17:41:12 IST" name="testOne" finished-at="2025-04-05T17:41:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- groupscripts.SampleTwo -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- SampleSuite -->
 </testng-results>
