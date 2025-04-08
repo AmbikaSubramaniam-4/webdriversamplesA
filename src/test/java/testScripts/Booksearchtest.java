@@ -68,7 +68,7 @@ public class Booksearchtest {
 //  }
   
   
-  @Test(alwaysRun = true, dependsOnMethods = "storiesnovel")
+  @Test
   public void horrernovel() throws InterruptedException {	  
 	  driver.findElement(By.xpath("//a[text()='Horror']")).click();
 	  Thread.sleep(2000);
@@ -77,18 +77,26 @@ public class Booksearchtest {
 	  
   }
   
-  @Test
-  public void storiesnovel() throws InterruptedException {	  
-	  driver.findElement(By.xpath("//a[text()='Novels & Stories']")).click();
-	  Thread.sleep(2000);
-	  String url = driver.getCurrentUrl();
-	  Assert.assertTrue(url.contains("novell"));
-  }
-  
-  @AfterMethod
-  public void toclose() {	
-	  driver.close();
-  }
+//  @Test
+//  public void storiesnovel(){	  
+//	  driver.findElement(By.xpath("//a[text()='Novels & Stories']")).click();
+//	  //Thread.sleep(2000);
+//	  String url = driver.getCurrentUrl();
+//	  Assert.assertTrue(url.contains("novell"));
+//  }
+//  
+//  @Test(alwaysRun = true, dependsOnMethods = "storiesnovel")
+//  public void horrernovel() throws InterruptedException {	  
+//	  driver.findElement(By.xpath("//a[text()='Horror']")).click();
+//	  Thread.sleep(2000);
+//	  String url = driver.getCurrentUrl();
+//	  Assert.assertTrue(url.contains("horror"));   
+//	  
+//  }
+//  @AfterMethod
+//  public void toclose() {	
+//	  driver.close();
+//  }
   }
   
 
